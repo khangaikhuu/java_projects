@@ -1,6 +1,6 @@
 package mn.guren.gis.active.impl;
 
-import mn.guren.gis.active.model.Contact;
+import mn.guren.gis.model.Contact;
 
 import java.util.List;
 

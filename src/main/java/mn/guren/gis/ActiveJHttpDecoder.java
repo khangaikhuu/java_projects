@@ -1,4 +1,4 @@
-package mn.guren.gis.active;
+package mn.guren.gis;
 
 import com.github.mustachejava.DefaultMustacheFactory;
 import com.github.mustachejava.Mustache;
@@ -16,8 +16,8 @@ import io.activej.launcher.Launcher;
 import io.activej.launchers.http.HttpServerLauncher;
 import mn.guren.gis.active.impl.ContactDAO;
 import mn.guren.gis.active.impl.ContactDAOImpl;
-import mn.guren.gis.active.model.Address;
-import mn.guren.gis.active.model.Contact;
+import mn.guren.gis.model.Address;
+import mn.guren.gis.model.Contact;
 
 import java.util.Map;
 

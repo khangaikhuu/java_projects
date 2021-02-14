@@ -1,0 +1,5 @@
+entity-packages: mn.guren.gis.model
+transactional-packages: mn.guren.gis.active
+querybean-packages: mn.guren.gis.active
+profile-location: true
+
