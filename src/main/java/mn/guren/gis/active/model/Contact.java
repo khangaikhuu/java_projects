@@ -1,6 +1,6 @@
-package mn.guren.gis.active;
+package mn.guren.gis.active.model;
 
-class Contact {
+public class Contact {
     private final String name;
     private final Integer age;
     private final Address address;
@@ -25,6 +25,6 @@ class Contact {
 
     @Override
     public String toString() {
-        return "mn.guren.gis.active.Contact{name='" + name + '\'' + ", age=" + age + ", address=" + address + '}';
+        return "mn.guren.gis.active.model.Contact{name='" + name + '\'' + ", age=" + age + ", address=" + address + '}';
     }
 }

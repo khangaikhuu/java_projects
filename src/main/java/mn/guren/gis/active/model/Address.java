@@ -1,6 +1,6 @@
-package mn.guren.gis.active;
+package mn.guren.gis.active.model;
 
-class Address {
+public class Address {
     private final String title;
 
     public Address(String title) {
