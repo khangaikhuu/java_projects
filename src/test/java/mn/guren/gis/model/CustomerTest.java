@@ -11,12 +11,12 @@ public class CustomerTest {
     @Test
     public void insertFindDelete() {
 
-        Customer customer = new Customer();
+        DCustomer customer = new DCustomer();
         customer.setName("Rob");
         customer.save();
 
-        final Customer rob =
-                DB.find(Customer.class)
+        final DCustomer rob =
+                DB.find(DCustomer.class)
                         .where().istartsWith("name", "ro")
                         .findOne();
 
@@ -24,7 +24,7 @@ public class CustomerTest {
 
         rob.delete();
 
-        final Customer notThere = DB.find(Customer.class, customer.getId());
+        final DCustomer notThere = DB.find(DCustomer.class, customer.getId());
         assertNull(notThere);
     }
 

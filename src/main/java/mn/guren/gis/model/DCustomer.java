@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @Data
 @Entity
 @Table(name = "customer")
-public class Customer extends BaseModel {
+public class DCustomer extends BaseModel {
 
     @NotNull
     private String name;

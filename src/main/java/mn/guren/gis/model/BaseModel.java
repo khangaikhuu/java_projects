@@ -18,7 +18,7 @@ import java.time.Instant;
 public abstract class BaseModel extends Model {
 
     @Id
-    protected long id;
+    protected int id;
 
     @Version
     protected Long version;
